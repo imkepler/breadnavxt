@@ -1,4 +1,5 @@
 <?php 
+//custom template for breadcrumb navXt for function.php Wordpress
 add_filter('bcn_breadcrumb_template', 'custom_breadcrumb_template_swap', 3, 10);
 function custom_breadcrumb_template_swap($template, $type, $id)
 {
