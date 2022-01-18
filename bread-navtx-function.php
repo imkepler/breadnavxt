@@ -1,3 +1,4 @@
+<?php 
 add_filter('bcn_breadcrumb_template', 'custom_breadcrumb_template_swap', 3, 10);
 function custom_breadcrumb_template_swap($template, $type, $id)
 {
@@ -29,3 +30,4 @@ function custom_breadcrumb_title_swap($title, $type, $id)
     }
     return $title;
 }
+?>
